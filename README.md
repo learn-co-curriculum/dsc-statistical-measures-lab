@@ -207,7 +207,7 @@ Choose the measure that seems most reasonable to you (it's a judgment call — t
 import numpy as np
 from scipy import stats
 
-# Assign `measure` to the mean, median, or mode of the sales data
+# Assign measure_central_tendency to the mean, median, or mode of the sales data
 measure_central_tendency = None
 
 print(f"""

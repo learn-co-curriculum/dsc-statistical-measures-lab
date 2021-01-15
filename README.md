@@ -33,18 +33,25 @@ Imagine you work for a company that sells widgets<sup>1</sup> and your boss has 
 
 For this lab we will be using a popular dataset known as the "Advertising Dataset". It comes from [_An Introduction to Statistical Learning with Applications in R_](https://statlearning.com/data.html) by G. James, D. Witten,  T. Hastie and R. Tibshirani. We have downloaded this dataset for you and stored it in this repository.
 
-This dataset contains four lists. Each number in each list represents the value for a given market. The four lists are:
+This dataset contains four lists. Each number in each list represents the value for that list in a given market. The four lists are:
 
 1. `sales`: the number of widgets sold (in thousands)
 2. `tv`: the amount of money (in thousands of dollars) spent on TV ads
 3. `radio`: the amount of money (in thousands of dollars) spent on radio ads
 4. `newspaper`: the amount of money (in thousands of dollars) spent on newspaper ads
 
+So, for example:
+- the **third number** from each list represents the value of `sales`, `tv`, `radio`, and `newspaper` in **one** market,
+- the **fourth number** from each list represents the value of `sales`, `tv`, `radio`, and `newspaper` in **another** market,
+
+and so on.
+
+
 ### Requirements
 
 #### 1. Sales Data Summary
 
-Write code that describes the number of records in the dictionary, as well as the markets with minimum and maximum sales numbers.
+Write code that describes the number of markets a given list has records for, as well as the sales numbers for the markets with the minimum and maximum sales.
 
 #### 2. Typical Sales Volume
 
@@ -82,7 +89,16 @@ newspaper = list(data["newspaper"])
 sales[:10]
 ```
 
+
+
+
+    [22.1, 10.4, 9.3, 18.5, 12.9, 7.2, 11.8, 13.2, 4.8, 10.6]
+
+
+
 Replace `None` with appropriate code so that this cell prints out the correct information. For this part, you only need to use the `sales` variable.
+
+**Reminder**: Replace `None` with code that **calculates** the answer.  Don't calculate the answer by hand and then replace `None` with the number of your answer! 
 
 
 ```python
@@ -118,6 +134,10 @@ ax.set_ylabel("Count")
 ax.set_title("Distribution of Sales across Markets");
 ```
 
+
+![png](index_files/index_5_0.png)
+
+
 ## Typical Sales Volume
 
 Now we should be able to address the first business question: _What sales volume do we have in a typical market?_
@@ -128,7 +148,7 @@ Reminder: the three measures of central tendency we've introduced are:
 
  - Mean
  - Median
- - Mode
+ - Mode 
 
 Choose the measure that seems most reasonable to you (it's a judgment call — there isn't always a single correct answer!) and complete the cell below, using NumPy or SciPy to compute the measure.
 

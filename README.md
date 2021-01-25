@@ -89,13 +89,6 @@ newspaper = list(data["newspaper"])
 sales[:10]
 ```
 
-
-
-
-    [22.1, 10.4, 9.3, 18.5, 12.9, 7.2, 11.8, 13.2, 4.8, 10.6]
-
-
-
 Replace `None` with appropriate code so that this cell prints out the correct information. For this part, you only need to use the `sales` variable.
 
 **Reminder**: Replace `None` with code that **calculates** the answer.  Don't calculate the answer by hand and then replace `None` with the number of your answer! 
@@ -133,10 +126,6 @@ ax.set_ylabel("Count")
 
 ax.set_title("Distribution of Sales across Markets");
 ```
-
-
-![png](index_files/index_5_0.png)
-
 
 ## Typical Sales Volume
 

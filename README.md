@@ -1,4 +1,4 @@
-# Statistical Measures - Summative Lab
+# Statistical Measures - Cumulative Lab
 
 ## Introduction
 
@@ -255,4 +255,4 @@ Based on the correlation numbers and a visual inspection of those plots, make a 
 
 ## Conclusion
 
-In this summative lab, you practiced analyzing sales and advertising data in order to make a business recommendation. Unlike some other labs, there was more ambiguity and we asked you to make some judgment calls in order to use data science concepts for a business audience. In the rest of the course, you will continue building your technical skills and technical communication skills!
+In this cumulative lab, you practiced analyzing sales and advertising data in order to make a business recommendation. Unlike some other labs, there was more ambiguity and we asked you to make some judgment calls in order to use data science concepts for a business audience. In the rest of the course, you will continue building your technical skills and technical communication skills!

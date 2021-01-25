@@ -90,13 +90,6 @@ sales[:10]
 ```
 
 
-
-
-    [22.1, 10.4, 9.3, 18.5, 12.9, 7.2, 11.8, 13.2, 4.8, 10.6]
-
-
-
-
 ```python
 # __SOLUTION__
 import pandas as pd
@@ -181,10 +174,6 @@ ax.set_ylabel("Count")
 
 ax.set_title("Distribution of Sales across Markets");
 ```
-
-
-![png](index_files/index_7_0.png)
-
 
 
 ```python

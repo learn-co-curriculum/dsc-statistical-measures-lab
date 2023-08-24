@@ -31,7 +31,7 @@ Imagine you work for a company that sells widgets<sup>1</sup> and your boss has 
 
 ### Data Understanding
 
-For this lab we will be using a popular dataset known as the "Advertising Dataset". It comes from [_An Introduction to Statistical Learning with Applications in R_](https://statlearning.com/data.html) by G. James, D. Witten,  T. Hastie and R. Tibshirani. We have downloaded this dataset for you and stored it in this repository.
+For this lab we will be using a popular dataset known as the "Advertising Dataset". It comes from [_An Introduction to Statistical Learning with Applications in R_](https://statlearning.com) by G. James, D. Witten,  T. Hastie and R. Tibshirani. We have downloaded this dataset for you and stored it in this repository.
 
 This dataset contains four lists. Each number in each list represents the value for that list in a given market. The four lists are:
 
@@ -192,7 +192,9 @@ ax.set_title("Distribution of Sales across Markets");
 ```
 
 
+    
 ![png](index_files/index_8_0.png)
+    
 
 
 ## Typical Sales Volume
@@ -512,7 +514,9 @@ fig.suptitle("Advertising Expenditure vs. Sales Across Media");
 ```
 
 
+    
 ![png](index_files/index_23_0.png)
+    
 
 
 ## Where to Spend Additional Dollars

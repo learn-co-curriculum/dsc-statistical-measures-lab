@@ -15,7 +15,7 @@ You will be able to:
 
 ## Your Task: Sales Data Analysis and Advertising Recommendations
 
-![business meeting](images/business_meeting.jpg)
+![business meeting](https://curriculum-content.s3.amazonaws.com/data-science/images/business_meeting.jpg)
 
 <span>Photo by <a href="https://unsplash.com/@sctgrhm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Scott Graham</a> on <a href="https://unsplash.com/s/photos/graph?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
